@@ -81,12 +81,44 @@ These values have the following meaning:
 
 The layout of scrollbars and related or adjacent content, and whether content is scrollable, is out of the scope of this spec. Those features are specified in the CSS Overflow module.
 
-# Painting
+## Painting
 
 This spec does not define the exact position or shape of the scrollbar, or any animation that may be applied to it.
 
 ## Illustrations 🌅
 
+```
+scrollbar-width: none;
+```
+
+![Width none](images/scrollbar-width-none.png)
+
+```
+scrollbar-width: thin;
+```
+
+![Width thin](images/scrollbar-width-thin.png)
+
+```
+scrollbar-width: auto;
+```
+
+![Width auto](images/scrollbar-width-auto.png)
+
+
+```
+scrollbar-width: thin;
+scrollbar-color: #378687 #e8b080;
+```
+
+![Width thin with color](images/scrollbar-width-thin-color.png)
+
+```
+scrollbar-width: auto;
+scrollbar-color: #378687 #e8b080;
+```
+
+![Width auto with color](images/scrollbar-width-auto-color.png)
 
 ## References
 
