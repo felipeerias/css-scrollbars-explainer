@@ -1,4 +1,4 @@
-# Explainer: the CSS Scrollbars module (level 1)
+# Explainer: CSS Scrollbars
 
 - Contents:
   - [Author](#author)
@@ -22,16 +22,16 @@
 
 ## Introduction
 
-The CSS Scrollbars spec (level 1) allows authors to style scrollbars by specifying their colors and thickness.
+The [CSS Scrollbars Module Level 1](https://drafts.csswg.org/css-scrollbars/) allows authors to style scrollbars by specifying their color scheme and thickness.
 
 It introduces two properties:
 
-* `scrollbar-color` provides the capability of changing the color of scrollbars so they fit better into the particular style of a web page
-* `scrollbar-width` allows the use of narrower scrollbars that may be more suitable for some use cases, or even to hide the scrollbars completely (without affecting scrollability)
+* `scrollbar-color` provides the capability of changing the color scheme of scrollbars so they fit better into the particular style of a web page;
+* `scrollbar-width` allows the use of narrower scrollbars that may be more suitable for some use cases, or even to hide the scrollbars completely without affecting scrollability.
 
 ## Background
 
-There are three main use cases that CSS Scrollbars spec intends to resolve:
+There are three main use cases that the CSS Scrollbars spec intends to resolve:
 
 * Coloring scrollbars to fit better into the UI of a web application.
 * Using a thinner scrollbar when the scrolling area is small.
@@ -90,13 +90,12 @@ This spec does not define the exact position or shape of the scrollbar, or any a
 
 * Spec:
   * [CSS Scrollbars Module Level 1](https://drafts.csswg.org/css-scrollbars/)
-* Relevant CSSWG Discussions:
+* Relevant CSSWG discussions and information:
   * [#1955 standardization of scrollbar color properties](https://github.com/w3c/csswg-drafts/issues/1955)
   * [#1958 Should we also add scrollbar width control](https://github.com/w3c/csswg-drafts/issues/1958)
+  * [CSS Scrollbars use cases](https://www.w3.org/wiki/Css-scrollbars#Use-cases)
 
 ## Illustrations 🌅
-
-(Using Firefox on OS X with classic scrollbars — note that Firefox does not support the `light` and `dark` values of `scrollbar-color`)
 
 ```
 scrollbar-width: none;
@@ -130,3 +129,5 @@ scrollbar-color: #378687 #e8b080;
 ```
 
 ![Width auto with color](images/scrollbar-width-auto-color.png)
+
+(Made using Firefox on OS X with classic scrollbars — note that Firefox does not support the `light` and `dark` values of `scrollbar-color`)
