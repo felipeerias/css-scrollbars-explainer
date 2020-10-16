@@ -128,7 +128,6 @@ scrollbar-color: #378687 #e8b080;
 
 ```
 scrollbar-width: none;
-scrollbar-color: auto;
 ```
 
 ![Width none](images/scrollbar-width-none.png)
