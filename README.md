@@ -97,24 +97,27 @@ This spec does not define the exact position or shape of the scrollbar, or any a
 
 ## Illustrations 🌅
 
+
 ```
-scrollbar-width: none;
+scrollbar-width: auto;
+scrollbar-color: auto;
 ```
 
-![Width none](images/scrollbar-width-none.png)
+![Width auto](images/scrollbar-width-auto.png)
 
 ```
 scrollbar-width: thin;
+scrollbar-color: auto;
 ```
 
 ![Width thin](images/scrollbar-width-thin.png)
 
 ```
-scrollbar-width: auto;
+scrollbar-width: none;
+scrollbar-color: auto;
 ```
 
-![Width auto](images/scrollbar-width-auto.png)
-
+![Width none](images/scrollbar-width-none.png)
 
 ```
 scrollbar-width: thin;
