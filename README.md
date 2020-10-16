@@ -18,7 +18,7 @@
 ## Participate
 
 * [Chromium intent-to-prototype]()
-* [TAG design review]()
+* TAG design review: https://github.com/w3ctag/design-reviews/issues/563
 
 ## Introduction
 
