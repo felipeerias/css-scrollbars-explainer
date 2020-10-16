@@ -8,9 +8,8 @@
   - [Definition and values](#definition-and-values)
   - [Layout](#layout)
   - [Painting](#painting)
-  - [Illustrations 🌅](#illustrations-)
   - [References](#references)
-
+  - [Illustrations 🌅](#illustrations-)
 
 ## Author
 
@@ -57,8 +56,6 @@ These values have the following meaning:
 * `light`: display a light scrollbar, either a light variant provided by the platform or a custom one with light colors.
 * `<color>{2}`: the first color is applied to the thumb (the moving part) and the second is applied to the track (the static part) of the scrollbar.
 
-If `scrollbar-color` computes to a value that is not `auto`, implementations may display a simpler scrollbar than the platform default.
-
 ### `scrollbar-width`
 
 The syntax for the `scrollbar-width` property is:
@@ -79,13 +76,27 @@ These values have the following meaning:
 
 ## Layout
 
-The layout of scrollbars and related or adjacent content, and whether content is scrollable, is out of the scope of this spec. Those features are specified in the CSS Overflow module.
+The property `scrollbar-width` influences the layout in as much as it modifies the amount of space taken up by the scrollbar. This in turn has consequences for properties such as `scrollbar-gutter` which take the scrollbar's thickness as reference.
+
+Other than that, the layout of scrollbars and related/adjacent content, and whether content is scrollable, is out of the scope of this spec. Those features are specified in the CSS Overflow module.
 
 ## Painting
 
+If `scrollbar-color` computes to a value that is not `auto`, implementations may display a simpler scrollbar than the platform default.
+
 This spec does not define the exact position or shape of the scrollbar, or any animation that may be applied to it.
 
+## References
+
+* Spec:
+  * [CSS Scrollbars Module Level 1](https://drafts.csswg.org/css-scrollbars/)
+* Relevant CSSWG Discussions:
+  * [#1955 standardization of scrollbar color properties](https://github.com/w3c/csswg-drafts/issues/1955)
+  * [#1958 Should we also add scrollbar width control](https://github.com/w3c/csswg-drafts/issues/1958)
+
 ## Illustrations 🌅
+
+(Using Firefox on OS X with classic scrollbars — note that Firefox does not support the `light` and `dark` values of `scrollbar-color`)
 
 ```
 scrollbar-width: none;
@@ -119,9 +130,3 @@ scrollbar-color: #378687 #e8b080;
 ```
 
 ![Width auto with color](images/scrollbar-width-auto-color.png)
-
-## References
-
-* Spec: https://drafts.csswg.org/css-scrollbars/
-* CSSWG Discussions:
-  * 
