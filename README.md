@@ -113,11 +113,11 @@ scrollbar-color: auto;
 ![Width thin](images/scrollbar-width-thin.png)
 
 ```
-scrollbar-width: none;
-scrollbar-color: auto;
+scrollbar-width: auto;
+scrollbar-color: #378687 #e8b080;
 ```
 
-![Width none](images/scrollbar-width-none.png)
+![Width auto with color](images/scrollbar-width-auto-color.png)
 
 ```
 scrollbar-width: thin;
@@ -127,10 +127,10 @@ scrollbar-color: #378687 #e8b080;
 ![Width thin with color](images/scrollbar-width-thin-color.png)
 
 ```
-scrollbar-width: auto;
-scrollbar-color: #378687 #e8b080;
+scrollbar-width: none;
+scrollbar-color: auto;
 ```
 
-![Width auto with color](images/scrollbar-width-auto-color.png)
+![Width none](images/scrollbar-width-none.png)
 
-(Made using Firefox on OS X with classic scrollbars — note that Firefox does not support the `light` and `dark` values of `scrollbar-color`)
+(Made with Firefox on OS X with classic scrollbars — note that Firefox does not support the `light` and `dark` values of `scrollbar-color`)
