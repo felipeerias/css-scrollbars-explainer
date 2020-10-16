@@ -91,9 +91,9 @@ This spec does not define the exact position or shape of the scrollbar, or any a
 * Spec:
   * [CSS Scrollbars Module Level 1](https://drafts.csswg.org/css-scrollbars/)
 * Relevant CSSWG discussions and information:
-  * [#1955 standardization of scrollbar color properties](https://github.com/w3c/csswg-drafts/issues/1955)
-  * [#1958 Should we also add scrollbar width control](https://github.com/w3c/csswg-drafts/issues/1958)
-  * [CSS Scrollbars use cases](https://www.w3.org/wiki/Css-scrollbars#Use-cases)
+  * CSSWG issue #1955 on `scrollbar-color`: https://github.com/w3c/csswg-drafts/issues/1955
+  * CSSWG issue #1958 on `scrollbar-width`: https://github.com/w3c/csswg-drafts/issues/1958
+  * [CSSWG-compiled list of use cases](https://www.w3.org/wiki/Css-scrollbars#Use-cases)
 
 ## Illustrations 🌅
 
