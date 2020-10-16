@@ -17,7 +17,7 @@
 
 ## Participate
 
-* [Chromium intent-to-prototype]()
+* [Chromium intent-to-prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/zwG2m_KG0RY/m/8nEx9wCWAwAJ)
 * TAG design review: https://github.com/w3ctag/design-reviews/issues/563
 
 ## Introduction
