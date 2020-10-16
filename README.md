@@ -132,4 +132,4 @@ scrollbar-width: none;
 
 ![Width none](images/scrollbar-width-none.png)
 
-(Made with Firefox on OS X with classic scrollbars — note that Firefox does not support the `light` and `dark` values of `scrollbar-color`)
+(Made with Firefox on OS X with classic scrollbars)
